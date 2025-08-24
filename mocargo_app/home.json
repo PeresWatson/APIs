@@ -1,0 +1,50 @@
+{
+    "transit": 2,
+    "ready": 3,
+    "collected": 4,
+    "unpaid_invoices": 1,
+    "recent_activity": [
+        {
+            "Shipment": "#1234",
+            "time": "5 mins ago"
+        },
+        {
+            "Shipment": "#1133",
+            "time": "2 days ago"
+        },
+        {
+            "Shipment": "#1004",
+            "time": "30mins ago"
+        },
+        {
+            "Shipment": "#1114",
+            "time": "1 month ago"
+        }
+    ],
+    "graph_data": [
+        {
+            "month": "Jul",
+            "value": 20
+        },
+         {
+            "month": "Aug",
+            "value": 70
+        },
+         {
+            "month": "Sep",
+            "value": 40
+        },
+         {
+            "month": "Oct",
+            "value": 50
+        },
+         {
+            "month": "Nov",
+            "value": 90
+        },
+         {
+            "month": "Dec",
+            "value": 10
+        }
+    ]
+}

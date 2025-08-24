@@ -1,0 +1,469 @@
+{
+  "shipments": [
+    {
+      "status": "transit",
+      "shipment_id": "#1000",
+      "source": "Guangzhou",
+      "time": "3 mins ago",
+      "date": "ETA 12/04/2025",
+      "cargo_id": "CG-1000",
+      "container_id": "CNT-1000",
+      "weight": "100",
+      "CBM": "100",
+      "supplier": "ABC.co.ltd",
+      "customer": "Kanjunju John",
+      "notes": "These are fragile materials",
+      "timeline_updates": [
+        {
+          "date": "20 April 2025, 09:00AM",
+          "status": "ready",
+          "details": "Shipment preparation"
+        }
+      ],
+      "pick_up_list": [
+        {
+          "number_of_packages": "10",
+          "status": "still in depot",
+          "customer": "Kanjunju John",
+          "date": "1 day ago",
+          "customer_phonenumber": "+255 736 567 8900",
+          "pick_up_id": "T-1000"
+        }
+      ]
+    },
+    {
+      "status": "ready",
+      "shipment_id": "#1001",
+      "source": "Shenzhen",
+      "time": "12 mins ago",
+      "date": "ETA 13/04/2025",
+      "cargo_id": "CG-1001",
+      "container_id": "CNT-1001",
+      "weight": "150",
+      "CBM": "120",
+      "supplier": "XYZ Global",
+      "customer": "Amina Hassan",
+      "notes": "Handle with care, electronics",
+      "timeline_updates": [
+        {
+          "date": "20 April 2025, 10:15AM",
+          "status": "transit",
+          "details": "Packed at source"
+        }
+      ],
+      "pick_up_list": [
+        {
+          "number_of_packages": "12",
+          "status": "collected",
+          "customer": "Amina Hassan",
+          "date": "3 hours ago",
+          "customer_phonenumber": "+255 712 345 678",
+          "pick_up_id": "T-1001"
+        }
+      ]
+    },
+    {
+      "status": "transit",
+      "shipment_id": "#1002",
+      "source": "Dubai",
+      "time": "25 mins ago",
+      "date": "ETA 14/04/2025",
+      "cargo_id": "CG-1002",
+      "container_id": "CNT-1002",
+      "weight": "200",
+      "CBM": "160",
+      "supplier": "MiddleEast Traders",
+      "customer": "Peter Mwangi",
+      "notes": "Chemicals – restricted",
+      "timeline_updates": [
+        {
+          "date": "19 April 2025, 05:00PM",
+          "status": "ready",
+          "details": "Waiting for customs clearance"
+        }
+      ],
+      "pick_up_list": [
+        {
+          "number_of_packages": "20",
+          "status": "in transit",
+          "customer": "Peter Mwangi",
+          "date": "Yesterday",
+          "customer_phonenumber": "+254 711 987 654",
+          "pick_up_id": "T-1002"
+        }
+      ]
+    },
+    {
+      "status": "ready",
+      "shipment_id": "#1003",
+      "source": "Nairobi",
+      "time": "40 mins ago",
+      "date": "ETA 15/04/2025",
+      "cargo_id": "CG-1003",
+      "container_id": "CNT-1003",
+      "weight": "90",
+      "CBM": "70",
+      "supplier": "East Africa Exports",
+      "customer": "Grace Mushi",
+      "notes": "Fragile glass items",
+      "timeline_updates": [
+        {
+          "date": "18 April 2025, 11:00AM",
+          "status": "transit",
+          "details": "Packed and sealed"
+        }
+      ],
+      "pick_up_list": [
+        {
+          "number_of_packages": "8",
+          "status": "in warehouse",
+          "customer": "Grace Mushi",
+          "date": "2 days ago",
+          "customer_phonenumber": "+255 755 123 321",
+          "pick_up_id": "T-1003"
+        }
+      ]
+    },
+    {
+      "status": "transit",
+      "shipment_id": "#1004",
+      "source": "London",
+      "time": "1 hour ago",
+      "date": "ETA 16/04/2025",
+      "cargo_id": "CG-1004",
+      "container_id": "CNT-1004",
+      "weight": "300",
+      "CBM": "250",
+      "supplier": "Euro Logistics",
+      "customer": "Michael Brown",
+      "notes": "Automobile parts",
+      "timeline_updates": [
+        {
+          "date": "18 April 2025, 03:00PM",
+          "status": "ready",
+          "details": "Quality check completed"
+        }
+      ],
+      "pick_up_list": [
+        {
+          "number_of_packages": "15",
+          "status": "awaiting dispatch",
+          "customer": "Michael Brown",
+          "date": "Yesterday",
+          "customer_phonenumber": "+44 7987 654321",
+          "pick_up_id": "T-1004"
+        }
+      ]
+    },
+    {
+      "status": "ready",
+      "shipment_id": "#1005",
+      "source": "Singapore",
+      "time": "2 hours ago",
+      "date": "ETA 17/04/2025",
+      "cargo_id": "CG-1005",
+      "container_id": "CNT-1005",
+      "weight": "110",
+      "CBM": "95",
+      "supplier": "Asia Trade Co.",
+      "customer": "David Kim",
+      "notes": "Plastic components",
+      "timeline_updates": [
+        {
+          "date": "17 April 2025, 06:30PM",
+          "status": "transit",
+          "details": "Packed at source"
+        }
+      ],
+      "pick_up_list": [
+        {
+          "number_of_packages": "9",
+          "status": "awaiting truck",
+          "customer": "David Kim",
+          "date": "1 day ago",
+          "customer_phonenumber": "+65 8765 4321",
+          "pick_up_id": "T-1005"
+        }
+      ]
+    },
+    {
+      "status": "transit",
+      "shipment_id": "#1006",
+      "source": "Mumbai",
+      "time": "3 hours ago",
+      "date": "ETA 18/04/2025",
+      "cargo_id": "CG-1006",
+      "container_id": "CNT-1006",
+      "weight": "170",
+      "CBM": "140",
+      "supplier": "India Exports Ltd",
+      "customer": "Rahul Patel",
+      "notes": "Textiles and garments",
+      "timeline_updates": [
+        {
+          "date": "16 April 2025, 09:30AM",
+          "status": "ready",
+          "details": "Shipment approved"
+        }
+      ],
+      "pick_up_list": [
+        {
+          "number_of_packages": "25",
+          "status": "collected",
+          "customer": "Rahul Patel",
+          "date": "Yesterday",
+          "customer_phonenumber": "+91 98765 43210",
+          "pick_up_id": "T-1006"
+        }
+      ]
+    },
+    {
+      "status": "ready",
+      "shipment_id": "#1007",
+      "source": "Cairo",
+      "time": "6 hours ago",
+      "date": "ETA 19/04/2025",
+      "cargo_id": "CG-1007",
+      "container_id": "CNT-1007",
+      "weight": "250",
+      "CBM": "210",
+      "supplier": "Nile Traders",
+      "customer": "Fatma Ali",
+      "notes": "Building materials",
+      "timeline_updates": [
+        {
+          "date": "15 April 2025, 02:00PM",
+          "status": "transit",
+          "details": "Loaded on vessel"
+        }
+      ],
+      "pick_up_list": [
+        {
+          "number_of_packages": "18",
+          "status": "ready",
+          "customer": "Fatma Ali",
+          "date": "2 days ago",
+          "customer_phonenumber": "+20 111 2345678",
+          "pick_up_id": "T-1007"
+        }
+      ]
+    },
+    {
+      "status": "transit",
+      "shipment_id": "#1008",
+      "source": "New York",
+      "time": "9 hours ago",
+      "date": "ETA 20/04/2025",
+      "cargo_id": "CG-1008",
+      "container_id": "CNT-1008",
+      "weight": "400",
+      "CBM": "350",
+      "supplier": "US Freight Corp",
+      "customer": "John Smith",
+      "notes": "Industrial equipment",
+      "timeline_updates": [
+        {
+          "date": "15 April 2025, 04:30PM",
+          "status": "ready",
+          "details": "Awaiting air cargo loading"
+        }
+      ],
+      "pick_up_list": [
+        {
+          "number_of_packages": "30",
+          "status": "awaiting customs",
+          "customer": "John Smith",
+          "date": "3 days ago",
+          "customer_phonenumber": "+1 555 123 4567",
+          "pick_up_id": "T-1008"
+        }
+      ]
+    },
+    {
+      "status": "ready",
+      "shipment_id": "#1009",
+      "source": "Paris",
+      "time": "Yesterday",
+      "date": "ETA 21/04/2025",
+      "cargo_id": "CG-1009",
+      "container_id": "CNT-1009",
+      "weight": "130",
+      "CBM": "110",
+      "supplier": "France Exports",
+      "customer": "Marie Dupont",
+      "notes": "Perfumes and cosmetics",
+      "timeline_updates": [
+        {
+          "date": "14 April 2025, 01:00PM",
+          "status": "transit",
+          "details": "Inspection completed"
+        }
+      ],
+      "pick_up_list": [
+        {
+          "number_of_packages": "7",
+          "status": "ready",
+          "customer": "Marie Dupont",
+          "date": "3 days ago",
+          "customer_phonenumber": "+33 612 345 678",
+          "pick_up_id": "T-1009"
+        }
+      ]
+    },
+    {
+      "status": "transit",
+      "shipment_id": "#1010",
+      "source": "Berlin",
+      "time": "Yesterday",
+      "date": "ETA 22/04/2025",
+      "cargo_id": "CG-1010",
+      "container_id": "CNT-1010",
+      "weight": "500",
+      "CBM": "420",
+      "supplier": "German Logistics",
+      "customer": "Hans Müller",
+      "notes": "Heavy machinery",
+      "timeline_updates": [
+        {
+          "date": "14 April 2025, 09:00AM",
+          "status": "ready",
+          "details": "Inspection passed"
+        }
+      ],
+      "pick_up_list": [
+        {
+          "number_of_packages": "40",
+          "status": "awaiting dispatch",
+          "customer": "Hans Müller",
+          "date": "3 days ago",
+          "customer_phonenumber": "+49 151 2345678",
+          "pick_up_id": "T-1010"
+        }
+      ]
+    },
+    {
+      "status": "ready",
+      "shipment_id": "#1011",
+      "source": "Johannesburg",
+      "time": "2 days ago",
+      "date": "ETA 23/04/2025",
+      "cargo_id": "CG-1011",
+      "container_id": "CNT-1011",
+      "weight": "220",
+      "CBM": "190",
+      "supplier": "SA Exports",
+      "customer": "Sipho Nkosi",
+      "notes": "Processed minerals",
+      "timeline_updates": [
+        {
+          "date": "13 April 2025, 11:00AM",
+          "status": "transit",
+          "details": "Cargo packed"
+        }
+      ],
+      "pick_up_list": [
+        {
+          "number_of_packages": "22",
+          "status": "ready",
+          "customer": "Sipho Nkosi",
+          "date": "4 days ago",
+          "customer_phonenumber": "+27 71 234 5678",
+          "pick_up_id": "T-1011"
+        }
+      ]
+    },
+    {
+      "status": "transit",
+      "shipment_id": "#1012",
+      "source": "Istanbul",
+      "time": "3 days ago",
+      "date": "ETA 24/04/2025",
+      "cargo_id": "CG-1012",
+      "container_id": "CNT-1012",
+      "weight": "180",
+      "CBM": "150",
+      "supplier": "Anatolia Trade",
+      "customer": "Ahmet Yilmaz",
+      "notes": "Household goods",
+      "timeline_updates": [
+        {
+          "date": "12 April 2025, 03:30PM",
+          "status": "ready",
+          "details": "Packed and ready for shipping"
+        }
+      ],
+      "pick_up_list": [
+        {
+          "number_of_packages": "14",
+          "status": "awaiting truck",
+          "customer": "Ahmet Yilmaz",
+          "date": "5 days ago",
+          "customer_phonenumber": "+90 532 123 4567",
+          "pick_up_id": "T-1012"
+        }
+      ]
+    },
+    {
+      "status": "ready",
+      "shipment_id": "#1013",
+      "source": "Tokyo",
+      "time": "4 days ago",
+      "date": "ETA 25/04/2025",
+      "cargo_id": "CG-1013",
+      "container_id": "CNT-1013",
+      "weight": "210",
+      "CBM": "170",
+      "supplier": "Japan Exports",
+      "customer": "Satoshi Tanaka",
+      "notes": "Electronic devices",
+      "timeline_updates": [
+        {
+          "date": "12 April 2025, 09:15AM",
+          "status": "transit",
+          "details": "Shipment in process"
+        }
+      ],
+      "pick_up_list": [
+        {
+          "number_of_packages": "16",
+          "status": "ready",
+          "customer": "Satoshi Tanaka",
+          "date": "5 days ago",
+          "customer_phonenumber": "+81 80 1234 5678",
+          "pick_up_id": "T-1013"
+        }
+      ]
+    },
+    {
+      "status": "transit",
+      "shipment_id": "#1014",
+      "source": "Seoul",
+      "time": "5 days ago",
+      "date": "ETA 26/04/2025",
+      "cargo_id": "CG-1014",
+      "container_id": "CNT-1014",
+      "weight": "260",
+      "CBM": "220",
+      "supplier": "Korea Logistics",
+      "customer": "Min-Jae Lee",
+      "notes": "Pharmaceutical products",
+      "timeline_updates": [
+        {
+          "date": "11 April 2025, 02:00PM",
+          "status": "ready",
+          "details": "Prepared for export"
+        }
+      ],
+      "pick_up_list": [
+        {
+          "number_of_packages": "19",
+          "status": "collected",
+          "customer": "Min-Jae Lee",
+          "date": "6 days ago",
+          "customer_phonenumber": "+82 10 9876 5432",
+          "pick_up_id": "T-1014"
+        }
+      ]
+    }
+  ]
+}
