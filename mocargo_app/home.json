@@ -1,54 +1,72 @@
 {
-  "transit": 2,
-  "ready": 3,
-  "collected": 4,
-  "unpaid_invoices": 1,
-  "recent_activity": [
-    {
-      "Shipment": "#1234",
-      "updates": "Container taken",
-      "time": "5 mins ago"
+  "message": {
+    "dashboard_data": {
+      "all_leads": 10,
+      "level_1": 3,
+      "level_2": 3,
+      "level_3": 4
     },
-    {
-      "Shipment": "#1133",
-      "updates": "Arrived at Dar es Salaam port",
-      "time": "2 days ago"
-    },
-    {
-      "Shipment": "#1004",
-      "updates": "Cleared customs",
-      "time": "30 mins ago"
-    },
-    {
-      "Shipment": "#1114",
-      "updates": "Shipment delayed due to weather",
-      "time": "1 month ago"
-    }
-  ],
-  "graph_data": [
-    {
-      "month": "Jul",
-      "value": 20
-    },
-    {
-      "month": "Aug",
-      "value": 70
-    },
-    {
-      "month": "Sep",
-      "value": 40
-    },
-    {
-      "month": "Oct",
-      "value": 50
-    },
-    {
-      "month": "Nov",
-      "value": 90
-    },
-    {
-      "month": "Dec",
-      "value": 10
-    }
-  ]
+    "recent_leads": [
+      {
+        "name": "John Doe",
+        "location": "Kimara Temboni",
+        "phoneNumber": "0685449190",
+        "level": "1"
+      },
+      {
+        "name": "Asha Hassan",
+        "location": "Mikocheni",
+        "phoneNumber": "0712345678",
+        "level": "2"
+      },
+      {
+        "name": "Peter Mushi",
+        "location": "Sinza",
+        "phoneNumber": "0756784321",
+        "level": "3"
+      },
+      {
+        "name": "Neema Joseph",
+        "location": "Kariakoo",
+        "phoneNumber": "0685999123",
+        "level": "1"
+      },
+      {
+        "name": "David John",
+        "location": "Tabata",
+        "phoneNumber": "0743210987",
+        "level": "2"
+      },
+      {
+        "name": "Zainabu Ramadhani",
+        "location": "Temeke",
+        "phoneNumber": "0765432109",
+        "level": "3"
+      },
+      {
+        "name": "Moses Mwakyusa",
+        "location": "Kunduchi",
+        "phoneNumber": "0789123456",
+        "level": "1"
+      },
+      {
+        "name": "Fatma Said",
+        "location": "Tegeta",
+        "phoneNumber": "0654321987",
+        "level": "2"
+      },
+      {
+        "name": "Kelvin Paul",
+        "location": "Ubungo",
+        "phoneNumber": "0734567890",
+        "level": "3"
+      },
+      {
+        "name": "Maria Jonas",
+        "location": "Magomeni",
+        "phoneNumber": "0678123456",
+        "level": "3"
+      }
+    ]
+  }
 }
